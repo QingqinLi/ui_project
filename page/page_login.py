@@ -4,11 +4,14 @@
 __author__ = 'qing.li'
 """
 from util.get_by_local import GetByLocal
+from base.base_driver import BaseDriver
 
 
 class LoginPage:
-    def __init__(self, driver):
-        self.get_by_local = GetByLocal(driver)
+    def __init__(self):
+        base_driver = BaseDriver()
+        self.driver = base_driver.android_driver()
+        self.get_by_local = GetByLocal(self.driver)
 
     def get_username(self):
         """

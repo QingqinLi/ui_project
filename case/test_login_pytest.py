@@ -14,16 +14,16 @@ class TestLogin:
 
     @classmethod
     def setup_class(cls):
-        capbilities = {
-            "platformName": "Android",
-            "app": "Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
-            "noReset": True,
-            "deviceName": "e636c401",
-            "appActivity": "com.moji.mjweather.MainActivity",
-            "resetKeyboard": True,
-        }
-        cls.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", capbilities)
-        cls.business_login = BusinessLogin(cls.driver)
+        # capbilities = {
+        #     "platformName": "Android",
+        #     "app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+        #     "noReset": True,
+        #     "deviceName": "R58MB0Z4WCX",
+        #     "appActivity": "com.moji.mjweather.MainActivity",
+        #     "resetKeyboard": True,
+        # }
+        # cls.driver = webdriver.Remote("http://127.0.0.1:4700/wd/hub", capbilities)
+        cls.business_login = BusinessLogin()
         print("this is setupClass")
 
     def setup(self):
@@ -32,14 +32,13 @@ class TestLogin:
     @pytest.mark.fail
     @pytest.mark.parametrize("username, password, message", [
         ("1326808", "123456", "用户名输入不正确，请重新输入"),
-        ("1233444", "123456", "用户名输入不正确，请重新输入"),
     ])
     def test_username_error(self, username, password, message):
-        TestLogin.driver.find_elements_by_id("com.moji.mjweather:id/tab_container")[3].click()
-        TestLogin.driver.find_element_by_id("com.moji.mjweather:id/mNickView").click()
-        time.sleep(2)
-        TestLogin.driver.find_element_by_id("com.moji.mjweather:id/tv_switch_login").click()
-        assert TestLogin.business_login.login_username_error(username, password, message)
+        # TestLogin.driver.find_elements_by_id("com.moji.mjweather:id/tab_container")[3].click()
+        # TestLogin.driver.find_element_by_id("com.moji.mjweather:id/mNickView").click()
+        time.sleep(15)
+        # TestLogin.driver.find_element_by_id("com.moji.mjweather:id/tv_switch_login").click()
+        assert self.business_login.login_username_error(username, password, message)
 
     # @unittest.skip("TestLogin")
     # @pytest.mark.success

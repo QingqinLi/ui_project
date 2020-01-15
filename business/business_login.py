@@ -7,8 +7,8 @@ from handle.handle_login import HandleLogin
 
 
 class BusinessLogin:
-    def __init__(self, driver):
-        self.handle_login = HandleLogin(driver)
+    def __init__(self):
+        self.handle_login = HandleLogin()
 
     def login_pass(self, username, password):
         self.handle_login.click_agree()
