@@ -8,9 +8,9 @@ from base.base_driver import BaseDriver
 
 
 class LoginPage:
-    def __init__(self):
+    def __init__(self, i):
         base_driver = BaseDriver()
-        self.driver = base_driver.android_driver()
+        self.driver = base_driver.android_driver(i)
         self.get_by_local = GetByLocal(self.driver)
 
     def get_username(self):

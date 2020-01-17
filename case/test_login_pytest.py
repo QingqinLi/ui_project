@@ -23,7 +23,7 @@ class TestLogin:
         #     "resetKeyboard": True,
         # }
         # cls.driver = webdriver.Remote("http://127.0.0.1:4700/wd/hub", capbilities)
-        cls.business_login = BusinessLogin()
+        cls.business_login = BusinessLogin(i)
         print("this is setupClass")
 
     def setup(self):

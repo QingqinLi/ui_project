@@ -7,8 +7,8 @@ from page.page_login import LoginPage
 
 
 class HandleLogin:
-    def __init__(self):
-        self.login_page = LoginPage()
+    def __init__(self, i):
+        self.login_page = LoginPage(i)
 
     def send_username(self, username):
         self.login_page.get_username().send_keys(username)

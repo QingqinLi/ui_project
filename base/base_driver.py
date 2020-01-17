@@ -5,21 +5,30 @@ __author__ = 'qing.li'
 """
 import time
 from appium import webdriver
+from util.write_user_command import WriteUserCommand
 
 
 class BaseDriver:
-    def android_driver(self):
+    def __init__(self):
+        self.write_user_command = WriteUserCommand()
+
+    def android_driver(self, i):
         # 可以直接读配置文件
         # devicename, port
+        print("device, port", "user_info_"+str(i))
+        device = self.write_user_command.get_value("user_info_"+str(i), "deviceName")
+        port = self.write_user_command.get_value("user_info_"+str(i), "port")
+        print("device, port", device, port)
         capbilities = {
             "platformName": "Android",
             "app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
             "noReset": True,
-            "deviceName": "R58MB0Z4WCX",
+            "deviceName": device,
             "appActivity": "com.moji.mjweather.MainActivity",
             "resetKeyboard": True,
         }
-        driver = webdriver.Remote("http://127.0.0.1:4700/wd/hub", capbilities)
+        # 配置设备，端口为随机对应， 每台设备对应, p , bp, 生成一个session
+        driver = webdriver.Remote("http://127.0.0.1:%s/wd/hub"%(str(port)), capbilities)
         return driver
 
     def ios_driver(self):

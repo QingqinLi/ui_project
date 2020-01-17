@@ -7,10 +7,11 @@ from handle.handle_login import HandleLogin
 
 
 class BusinessLogin:
-    def __init__(self):
-        self.handle_login = HandleLogin()
+    def __init__(self, i):
+        self.handle_login = HandleLogin(i)
 
     def login_pass(self, username, password):
+
         self.handle_login.click_agree()
         self.handle_login.send_username(username)
         self.handle_login.send_password(password)
