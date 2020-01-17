@@ -5,7 +5,6 @@ __author__ = 'qing.li'
 """
 import threading
 import unittest
-from appium import webdriver
 from business.business_login import BusinessLogin
 import time
 import HTMLTestRunner
@@ -52,7 +51,7 @@ class TestLogin(ParameTestCase):
         # time.sleep(2)
         # self.driver.find_element_by_id("com.moji.mjweather:id/tv_switch_login").click()
         time.sleep(15)
-        self.business_login.login_pass("13263106808", "654321")
+        self.business_login.login_pass("13263106808", "123456")
 
     def test_username_error(self):
         self.driver.find_elements_by_id("com.moji.mjweather:id/tab_container")[3].click()
@@ -114,10 +113,10 @@ if __name__ == "__main__":
     # 启动appium服务器
     init_appium()
     threads = []
-    l = Lock
+    l = Lock()
     for i in range(get_count()):
         # 使用多线程需要使用线程锁， 防止线程间数据混乱
-        t = threading.Thread(target=get_suite, args=(i,l))
+        t = threading.Thread(target=get_suite, args=(i, l))
         threads.append(t)
         # t = multiprocessing.Process(target=get_suite, args=(i, ))
         # threads.append(t)
