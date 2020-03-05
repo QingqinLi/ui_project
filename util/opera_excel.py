@@ -4,6 +4,7 @@
 __author__ = 'qing.li'
 """
 import xlrd
+from xlutils.copy import copy
 
 
 # 单元格需要设置为文本类型
@@ -31,7 +32,21 @@ class OperaExcel:
     def get_cell(self, row, col):
         return self.table.cell(row, col).value
 
+    def get_lines(self):
+        line = self.table.nrows
+        return line
+
+    def write_value(self, row, value):
+        read_value = self.excel
+        write_data = copy(read_value)
+        print(write_data)
+        write_save = write_data.get_sheet(0)
+        print(write_save)
+        write_save.write(row, 7, value)
+        write_data.save(self.file_path)
+
 
 if __name__ == '__main__':
     oe = OperaExcel()
-    print(oe.get_cell(0, 0))
+    print(oe.write_value(1, "tests"))
+    print(oe.get_cell(1, 8))

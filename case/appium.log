@@ -286,3 +286,609 @@
 2020-01-17 03:15:38:749 [Instrumentation] 
 2020-01-17 03:15:38:750 [Instrumentation] OK (1 test)
 2020-01-17 03:15:38:808 [Instrumentation] The process has exited with code 0
+2020-01-19 06:34:46:534 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:34:46:535 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"GDBNW19927003994","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"GDBNW19927003994","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:34:46:540 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"GDBNW19927003994","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"GDBNW19927003994","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:34:46:541 [BaseDriver] Event 'newSessionRequested' logged at 1579415686540 (14:34:46 GMT+0800 (GMT+08:00))
+2020-01-19 06:34:46:550 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:34:46:554 [Appium] 
+2020-01-19 06:34:46:554 [Appium] ======================================================================
+2020-01-19 06:34:46:554 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:34:46:554 [Appium] 
+2020-01-19 06:34:46:555 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:34:46:555 [Appium]   capabilities for this Android session
+2020-01-19 06:34:46:555 [Appium] 
+2020-01-19 06:34:46:555 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:34:46:555 [Appium]   UiAutomator2 Driver
+2020-01-19 06:34:46:556 [Appium] 
+2020-01-19 06:34:46:556 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:34:46:556 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:34:46:558 [Appium]   platforms
+2020-01-19 06:34:46:560 [Appium] 
+2020-01-19 06:34:46:562 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:34:46:563 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:34:46:575 [Appium] 
+2020-01-19 06:34:46:576 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:34:46:577 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:34:46:577 [Appium] 
+2020-01-19 06:34:46:578 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:34:46:578 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:34:46:578 [Appium]   'Drivers' menu
+2020-01-19 06:34:46:578 [Appium] 
+2020-01-19 06:34:46:578 [Appium] ======================================================================
+2020-01-19 06:34:46:579 [Appium] 
+2020-01-19 06:34:46:579 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:34:46:585 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:34:46:585 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:34:46:585 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:34:46:585 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:34:46:586 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:34:46:586 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:34:46:586 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:34:46:586 [BaseDriver]     "appium:deviceName": "GDBNW19927003994",
+2020-01-19 06:34:46:586 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:34:46:587 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:34:46:587 [BaseDriver]   },
+2020-01-19 06:34:46:587 [BaseDriver]   "firstMatch": [
+2020-01-19 06:34:46:587 [BaseDriver]     {}
+2020-01-19 06:34:46:587 [BaseDriver]   ]
+2020-01-19 06:34:46:588 [BaseDriver] }
+2020-01-19 06:34:46:602 [BaseDriver] Session created with session id: dd58328f-3ed7-462c-ae4e-5e210eec6967
+2020-01-19 06:34:47:006 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:34:47:011 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:34:47:013 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:34:47:023 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:34:47:025 [AndroidDriver] Retrieving device list
+2020-01-19 06:34:47:025 [ADB] Trying to find a connected android device
+2020-01-19 06:34:47:025 [ADB] Getting connected devices...
+2020-01-19 06:34:47:045 [ADB] No connected devices have been detected
+2020-01-19 06:34:47:045 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:34:47:047 [ADB] Restarting adb
+2020-01-19 06:34:47:047 [ADB] Killing adb server on port 5037
+2020-01-19 06:34:47:047 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:34:47:267 [ADB] Getting connected devices...
+2020-01-19 06:34:50:401 [ADB] No connected devices have been detected
+2020-01-19 06:34:50:402 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:34:50:402 [ADB] Restarting adb
+2020-01-19 06:34:50:402 [ADB] Killing adb server on port 5037
+2020-01-19 06:34:50:402 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:34:50:620 [ADB] Getting connected devices...
+2020-01-19 06:34:53:755 [ADB] No connected devices have been detected
+2020-01-19 06:34:53:755 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:34:53:756 [ADB] Restarting adb
+2020-01-19 06:34:53:756 [ADB] Killing adb server on port 5037
+2020-01-19 06:34:53:757 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:34:53:969 [ADB] Getting connected devices...
+2020-01-19 06:34:57:100 [ADB] No connected devices have been detected
+2020-01-19 06:34:57:100 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:34:57:100 [ADB] Restarting adb
+2020-01-19 06:34:57:101 [ADB] Killing adb server on port 5037
+2020-01-19 06:34:57:101 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:34:57:316 [ADB] Getting connected devices...
+2020-01-19 06:35:00:437 [ADB] No connected devices have been detected
+2020-01-19 06:35:00:437 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:00:438 [ADB] Restarting adb
+2020-01-19 06:35:00:438 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:00:438 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:00:649 [ADB] Getting connected devices...
+2020-01-19 06:35:03:774 [ADB] No connected devices have been detected
+2020-01-19 06:35:03:774 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:03:775 [ADB] Restarting adb
+2020-01-19 06:35:03:775 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:03:776 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:03:987 [ADB] Getting connected devices...
+2020-01-19 06:35:07:116 [ADB] No connected devices have been detected
+2020-01-19 06:35:07:117 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:07:117 [ADB] Restarting adb
+2020-01-19 06:35:07:117 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:07:117 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:07:333 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:07:334 [ADB] Restarting adb
+2020-01-19 06:35:07:334 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:07:335 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:07:548 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:07:548 [ADB] Restarting adb
+2020-01-19 06:35:07:549 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:07:549 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:07:758 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:07:759 [ADB] Restarting adb
+2020-01-19 06:35:07:759 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:07:760 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:07:971 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:07:971 [ADB] Restarting adb
+2020-01-19 06:35:07:972 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:07:972 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:08:184 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:08:184 [ADB] Restarting adb
+2020-01-19 06:35:08:185 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:08:185 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:08:398 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:08:399 [ADB] Restarting adb
+2020-01-19 06:35:08:399 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:08:399 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:08:610 [ADB] Could not find devices, restarting adb server...
+2020-01-19 06:35:08:611 [ADB] Restarting adb
+2020-01-19 06:35:08:611 [ADB] Killing adb server on port 5037
+2020-01-19 06:35:08:611 [ADB] Running '/Users/qing.li/Library/Android/sdk/platform-tools/adb -P 5037 kill-server'
+2020-01-19 06:35:08:825 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:35:08:826 [BaseDriver] Event 'newSessionStarted' logged at 1579415708826 (14:35:08 GMT+0800 (GMT+08:00))
+2020-01-19 06:35:08:922 [W3C] Encountered internal error running command: Error: Could not find a connected Android device.
+2020-01-19 06:35:08:922 [W3C]     at getDevices (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:203:13)
+2020-01-19 06:35:08:922 [W3C]     at getDevices (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:220:20)
+2020-01-19 06:35:08:922 [W3C]     at ADB.getDevicesWithRetry (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/tools/system-calls.js:223:10)
+2020-01-19 06:35:08:923 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:195:19)
+2020-01-19 06:35:08:923 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:35:08:923 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:35:08:923 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:35:08:955 [HTTP] <-- POST /wd/hub/session 500 22434 ms - 581
+2020-01-19 06:35:08:955 [HTTP] 
+2020-01-19 06:35:46:547 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:35:46:547 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"GDBNW19927003994","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"GDBNW19927003994","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:35:46:548 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"GDBNW19927003994","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"GDBNW19927003994","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:35:46:548 [BaseDriver] Event 'newSessionRequested' logged at 1579415746548 (14:35:46 GMT+0800 (GMT+08:00))
+2020-01-19 06:35:46:549 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:35:46:550 [Appium] 
+2020-01-19 06:35:46:550 [Appium] ======================================================================
+2020-01-19 06:35:46:550 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:35:46:550 [Appium] 
+2020-01-19 06:35:46:551 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:35:46:551 [Appium]   capabilities for this Android session
+2020-01-19 06:35:46:551 [Appium] 
+2020-01-19 06:35:46:551 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:35:46:551 [Appium]   UiAutomator2 Driver
+2020-01-19 06:35:46:552 [Appium] 
+2020-01-19 06:35:46:552 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:35:46:552 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:35:46:552 [Appium]   platforms
+2020-01-19 06:35:46:553 [Appium] 
+2020-01-19 06:35:46:553 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:35:46:553 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:35:46:554 [Appium] 
+2020-01-19 06:35:46:554 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:35:46:554 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:35:46:555 [Appium] 
+2020-01-19 06:35:46:555 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:35:46:555 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:35:46:555 [Appium]   'Drivers' menu
+2020-01-19 06:35:46:556 [Appium] 
+2020-01-19 06:35:46:556 [Appium] ======================================================================
+2020-01-19 06:35:46:556 [Appium] 
+2020-01-19 06:35:46:556 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:35:46:557 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:35:46:558 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:35:46:558 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:35:46:558 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:35:46:558 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:35:46:560 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:35:46:560 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:35:46:560 [BaseDriver]     "appium:deviceName": "GDBNW19927003994",
+2020-01-19 06:35:46:560 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:35:46:560 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:35:46:561 [BaseDriver]   },
+2020-01-19 06:35:46:561 [BaseDriver]   "firstMatch": [
+2020-01-19 06:35:46:561 [BaseDriver]     {}
+2020-01-19 06:35:46:561 [BaseDriver]   ]
+2020-01-19 06:35:46:562 [BaseDriver] }
+2020-01-19 06:35:46:571 [BaseDriver] Session created with session id: 8c8540a8-ac2e-430d-af34-03337f7d11ba
+2020-01-19 06:35:46:571 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:35:46:572 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:35:46:572 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:35:46:576 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:35:46:577 [AndroidDriver] Retrieving device list
+2020-01-19 06:35:46:577 [ADB] Trying to find a connected android device
+2020-01-19 06:35:46:580 [ADB] Getting connected devices...
+2020-01-19 06:35:49:711 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:35:49:711 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:35:49:712 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:35:49:713 [BaseDriver] Event 'newSessionStarted' logged at 1579415749713 (14:35:49 GMT+0800 (GMT+08:00))
+2020-01-19 06:35:49:716 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:35:49:717 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:35:49:717 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:35:49:717 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:35:49:718 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:35:49:718 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:35:49:719 [HTTP] <-- POST /wd/hub/session 500 3172 ms - 625
+2020-01-19 06:35:49:720 [HTTP] 
+2020-01-19 06:37:16:959 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:37:16:959 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:37:16:960 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:37:16:960 [BaseDriver] Event 'newSessionRequested' logged at 1579415836960 (14:37:16 GMT+0800 (GMT+08:00))
+2020-01-19 06:37:16:961 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:37:16:963 [Appium] 
+2020-01-19 06:37:16:963 [Appium] ======================================================================
+2020-01-19 06:37:16:963 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:37:16:963 [Appium] 
+2020-01-19 06:37:16:964 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:37:16:964 [Appium]   capabilities for this Android session
+2020-01-19 06:37:16:964 [Appium] 
+2020-01-19 06:37:16:964 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:37:16:964 [Appium]   UiAutomator2 Driver
+2020-01-19 06:37:16:964 [Appium] 
+2020-01-19 06:37:16:965 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:37:16:965 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:37:16:965 [Appium]   platforms
+2020-01-19 06:37:16:965 [Appium] 
+2020-01-19 06:37:16:965 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:37:16:965 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:37:16:966 [Appium] 
+2020-01-19 06:37:16:967 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:37:16:967 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:37:16:967 [Appium] 
+2020-01-19 06:37:16:967 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:37:16:968 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:37:16:968 [Appium]   'Drivers' menu
+2020-01-19 06:37:16:968 [Appium] 
+2020-01-19 06:37:16:968 [Appium] ======================================================================
+2020-01-19 06:37:16:968 [Appium] 
+2020-01-19 06:37:16:969 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:37:16:969 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:37:16:970 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:37:16:970 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:37:16:970 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:37:16:970 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:37:16:970 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:37:16:971 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:37:16:971 [BaseDriver]     "appium:deviceName": "R58MB0Z4WCX",
+2020-01-19 06:37:16:971 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:37:16:971 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:37:16:971 [BaseDriver]   },
+2020-01-19 06:37:16:971 [BaseDriver]   "firstMatch": [
+2020-01-19 06:37:16:972 [BaseDriver]     {}
+2020-01-19 06:37:16:972 [BaseDriver]   ]
+2020-01-19 06:37:16:974 [BaseDriver] }
+2020-01-19 06:37:16:978 [BaseDriver] Session created with session id: 03b61140-4acb-4377-ad1c-e112dc3de56c
+2020-01-19 06:37:16:978 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:37:16:979 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:37:16:979 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:37:16:981 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:37:16:981 [AndroidDriver] Retrieving device list
+2020-01-19 06:37:16:982 [ADB] Trying to find a connected android device
+2020-01-19 06:37:16:982 [ADB] Getting connected devices...
+2020-01-19 06:37:16:993 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:37:16:993 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:37:16:994 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:37:16:994 [BaseDriver] Event 'newSessionStarted' logged at 1579415836994 (14:37:16 GMT+0800 (GMT+08:00))
+2020-01-19 06:37:16:995 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:37:16:995 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:37:16:996 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:37:16:996 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:37:16:996 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:37:16:996 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:37:16:998 [HTTP] <-- POST /wd/hub/session 500 39 ms - 625
+2020-01-19 06:37:16:998 [HTTP] 
+2020-01-19 06:37:34:858 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:37:34:858 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:37:34:859 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:37:34:859 [BaseDriver] Event 'newSessionRequested' logged at 1579415854859 (14:37:34 GMT+0800 (GMT+08:00))
+2020-01-19 06:37:34:859 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:37:34:861 [Appium] 
+2020-01-19 06:37:34:861 [Appium] ======================================================================
+2020-01-19 06:37:34:861 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:37:34:862 [Appium] 
+2020-01-19 06:37:34:862 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:37:34:862 [Appium]   capabilities for this Android session
+2020-01-19 06:37:34:862 [Appium] 
+2020-01-19 06:37:34:862 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:37:34:862 [Appium]   UiAutomator2 Driver
+2020-01-19 06:37:34:862 [Appium] 
+2020-01-19 06:37:34:863 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:37:34:863 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:37:34:863 [Appium]   platforms
+2020-01-19 06:37:34:863 [Appium] 
+2020-01-19 06:37:34:864 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:37:34:864 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:37:34:864 [Appium] 
+2020-01-19 06:37:34:864 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:37:34:864 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:37:34:864 [Appium] 
+2020-01-19 06:37:34:865 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:37:34:865 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:37:34:865 [Appium]   'Drivers' menu
+2020-01-19 06:37:34:865 [Appium] 
+2020-01-19 06:37:34:865 [Appium] ======================================================================
+2020-01-19 06:37:34:865 [Appium] 
+2020-01-19 06:37:34:866 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:37:34:867 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:37:34:867 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:37:34:867 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:37:34:867 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:37:34:867 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:37:34:868 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:37:34:868 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:37:34:868 [BaseDriver]     "appium:deviceName": "R58MB0Z4WCX",
+2020-01-19 06:37:34:868 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:37:34:868 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:37:34:868 [BaseDriver]   },
+2020-01-19 06:37:34:869 [BaseDriver]   "firstMatch": [
+2020-01-19 06:37:34:869 [BaseDriver]     {}
+2020-01-19 06:37:34:869 [BaseDriver]   ]
+2020-01-19 06:37:34:869 [BaseDriver] }
+2020-01-19 06:37:34:873 [BaseDriver] Session created with session id: 5a8d0d96-468a-4c8e-a623-b46f427d29d8
+2020-01-19 06:37:34:873 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:37:34:874 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:37:34:875 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:37:34:876 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:37:34:876 [AndroidDriver] Retrieving device list
+2020-01-19 06:37:34:877 [ADB] Trying to find a connected android device
+2020-01-19 06:37:34:877 [ADB] Getting connected devices...
+2020-01-19 06:37:34:885 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:37:34:885 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:37:34:885 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:37:34:886 [BaseDriver] Event 'newSessionStarted' logged at 1579415854886 (14:37:34 GMT+0800 (GMT+08:00))
+2020-01-19 06:37:34:887 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:37:34:887 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:37:34:887 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:37:34:887 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:37:34:887 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:37:34:887 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:37:34:889 [HTTP] <-- POST /wd/hub/session 500 31 ms - 625
+2020-01-19 06:37:34:889 [HTTP] 
+2020-01-19 06:38:25:940 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:38:25:941 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:38:25:944 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:38:25:945 [BaseDriver] Event 'newSessionRequested' logged at 1579415905945 (14:38:25 GMT+0800 (GMT+08:00))
+2020-01-19 06:38:25:945 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:38:25:949 [Appium] 
+2020-01-19 06:38:25:949 [Appium] ======================================================================
+2020-01-19 06:38:25:949 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:38:25:949 [Appium] 
+2020-01-19 06:38:25:950 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:38:25:950 [Appium]   capabilities for this Android session
+2020-01-19 06:38:25:950 [Appium] 
+2020-01-19 06:38:25:950 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:38:25:950 [Appium]   UiAutomator2 Driver
+2020-01-19 06:38:25:950 [Appium] 
+2020-01-19 06:38:25:951 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:38:25:951 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:38:25:951 [Appium]   platforms
+2020-01-19 06:38:25:951 [Appium] 
+2020-01-19 06:38:25:951 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:38:25:951 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:38:25:952 [Appium] 
+2020-01-19 06:38:25:952 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:38:25:952 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:38:25:953 [Appium] 
+2020-01-19 06:38:25:953 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:38:25:953 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:38:25:953 [Appium]   'Drivers' menu
+2020-01-19 06:38:25:953 [Appium] 
+2020-01-19 06:38:25:956 [Appium] ======================================================================
+2020-01-19 06:38:25:956 [Appium] 
+2020-01-19 06:38:25:957 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:38:25:958 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:38:25:959 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:38:25:959 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:38:25:959 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:38:25:959 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:38:25:959 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:38:25:959 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:38:25:960 [BaseDriver]     "appium:deviceName": "R58MB0Z4WCX",
+2020-01-19 06:38:25:960 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:38:25:960 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:38:25:960 [BaseDriver]   },
+2020-01-19 06:38:25:960 [BaseDriver]   "firstMatch": [
+2020-01-19 06:38:25:960 [BaseDriver]     {}
+2020-01-19 06:38:25:961 [BaseDriver]   ]
+2020-01-19 06:38:25:961 [BaseDriver] }
+2020-01-19 06:38:25:966 [BaseDriver] Session created with session id: 8337a87d-cc25-4602-856a-34197d0c56c5
+2020-01-19 06:38:25:968 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:38:25:968 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:38:25:969 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:38:25:972 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:38:25:974 [AndroidDriver] Retrieving device list
+2020-01-19 06:38:25:974 [ADB] Trying to find a connected android device
+2020-01-19 06:38:25:975 [ADB] Getting connected devices...
+2020-01-19 06:38:25:987 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:38:25:988 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:38:25:988 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:38:25:989 [BaseDriver] Event 'newSessionStarted' logged at 1579415905989 (14:38:25 GMT+0800 (GMT+08:00))
+2020-01-19 06:38:25:990 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:38:25:990 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:38:25:990 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:38:25:991 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:38:25:991 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:38:25:991 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:38:25:992 [HTTP] <-- POST /wd/hub/session 500 52 ms - 625
+2020-01-19 06:38:25:994 [HTTP] 
+2020-01-19 06:39:16:232 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:39:16:233 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:39:16:233 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:39:16:233 [BaseDriver] Event 'newSessionRequested' logged at 1579415956233 (14:39:16 GMT+0800 (GMT+08:00))
+2020-01-19 06:39:16:234 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:39:16:235 [Appium] 
+2020-01-19 06:39:16:235 [Appium] ======================================================================
+2020-01-19 06:39:16:235 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:39:16:235 [Appium] 
+2020-01-19 06:39:16:235 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:39:16:235 [Appium]   capabilities for this Android session
+2020-01-19 06:39:16:236 [Appium] 
+2020-01-19 06:39:16:236 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:39:16:236 [Appium]   UiAutomator2 Driver
+2020-01-19 06:39:16:236 [Appium] 
+2020-01-19 06:39:16:236 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:39:16:236 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:39:16:236 [Appium]   platforms
+2020-01-19 06:39:16:237 [Appium] 
+2020-01-19 06:39:16:237 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:39:16:237 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:39:16:237 [Appium] 
+2020-01-19 06:39:16:237 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:39:16:237 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:39:16:238 [Appium] 
+2020-01-19 06:39:16:238 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:39:16:238 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:39:16:238 [Appium]   'Drivers' menu
+2020-01-19 06:39:16:238 [Appium] 
+2020-01-19 06:39:16:238 [Appium] ======================================================================
+2020-01-19 06:39:16:238 [Appium] 
+2020-01-19 06:39:16:239 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:39:16:239 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:39:16:240 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:39:16:240 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:39:16:240 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:39:16:240 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:39:16:240 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:39:16:240 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:39:16:241 [BaseDriver]     "appium:deviceName": "R58MB0Z4WCX",
+2020-01-19 06:39:16:241 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:39:16:241 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:39:16:241 [BaseDriver]   },
+2020-01-19 06:39:16:241 [BaseDriver]   "firstMatch": [
+2020-01-19 06:39:16:241 [BaseDriver]     {}
+2020-01-19 06:39:16:241 [BaseDriver]   ]
+2020-01-19 06:39:16:242 [BaseDriver] }
+2020-01-19 06:39:16:245 [BaseDriver] Session created with session id: 65f85fe1-ab2b-47e8-afff-e3f7ef43d1fe
+2020-01-19 06:39:16:246 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:39:16:246 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:39:16:247 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:39:16:248 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:39:16:248 [AndroidDriver] Retrieving device list
+2020-01-19 06:39:16:248 [ADB] Trying to find a connected android device
+2020-01-19 06:39:16:249 [ADB] Getting connected devices...
+2020-01-19 06:39:16:260 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:39:16:260 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:39:16:260 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:39:16:261 [BaseDriver] Event 'newSessionStarted' logged at 1579415956261 (14:39:16 GMT+0800 (GMT+08:00))
+2020-01-19 06:39:16:262 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:39:16:262 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:39:16:262 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:39:16:263 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:39:16:264 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:39:16:264 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:39:16:265 [HTTP] <-- POST /wd/hub/session 500 33 ms - 625
+2020-01-19 06:39:16:265 [HTTP] 
+2020-01-19 06:45:21:193 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:45:21:193 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:45:21:194 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:45:21:194 [BaseDriver] Event 'newSessionRequested' logged at 1579416321194 (14:45:21 GMT+0800 (GMT+08:00))
+2020-01-19 06:45:21:195 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:45:21:196 [Appium] 
+2020-01-19 06:45:21:196 [Appium] ======================================================================
+2020-01-19 06:45:21:196 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:45:21:197 [Appium] 
+2020-01-19 06:45:21:198 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:45:21:199 [Appium]   capabilities for this Android session
+2020-01-19 06:45:21:199 [Appium] 
+2020-01-19 06:45:21:199 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:45:21:199 [Appium]   UiAutomator2 Driver
+2020-01-19 06:45:21:200 [Appium] 
+2020-01-19 06:45:21:200 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:45:21:200 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:45:21:200 [Appium]   platforms
+2020-01-19 06:45:21:201 [Appium] 
+2020-01-19 06:45:21:201 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:45:21:201 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:45:21:201 [Appium] 
+2020-01-19 06:45:21:202 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:45:21:202 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:45:21:202 [Appium] 
+2020-01-19 06:45:21:202 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:45:21:202 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:45:21:203 [Appium]   'Drivers' menu
+2020-01-19 06:45:21:203 [Appium] 
+2020-01-19 06:45:21:203 [Appium] ======================================================================
+2020-01-19 06:45:21:203 [Appium] 
+2020-01-19 06:45:21:203 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:45:21:204 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:45:21:205 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:45:21:206 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:45:21:207 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:45:21:207 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:45:21:208 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:45:21:208 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:45:21:208 [BaseDriver]     "appium:deviceName": "R58MB0Z4WCX",
+2020-01-19 06:45:21:208 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:45:21:209 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:45:21:209 [BaseDriver]   },
+2020-01-19 06:45:21:209 [BaseDriver]   "firstMatch": [
+2020-01-19 06:45:21:209 [BaseDriver]     {}
+2020-01-19 06:45:21:209 [BaseDriver]   ]
+2020-01-19 06:45:21:211 [BaseDriver] }
+2020-01-19 06:45:21:219 [BaseDriver] Session created with session id: bdf573c6-2616-4e85-a5a6-e2f3fd7b1fe3
+2020-01-19 06:45:21:220 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:45:21:222 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:45:21:224 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:45:21:226 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:45:21:226 [AndroidDriver] Retrieving device list
+2020-01-19 06:45:21:227 [ADB] Trying to find a connected android device
+2020-01-19 06:45:21:227 [ADB] Getting connected devices...
+2020-01-19 06:45:21:240 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:45:21:241 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:45:21:241 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:45:21:242 [BaseDriver] Event 'newSessionStarted' logged at 1579416321242 (14:45:21 GMT+0800 (GMT+08:00))
+2020-01-19 06:45:21:244 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:45:21:244 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:45:21:244 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:45:21:244 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:45:21:245 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:45:21:245 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:45:21:249 [HTTP] <-- POST /wd/hub/session 500 56 ms - 625
+2020-01-19 06:45:21:250 [HTTP] 
+2020-01-19 06:47:34:799 [HTTP] --> POST /wd/hub/session
+2020-01-19 06:47:34:800 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]},"desiredCapabilities":{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true}}
+2020-01-19 06:47:34:801 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","noReset":true,"deviceName":"R58MB0Z4WCX","appActivity":"com.moji.mjweather.MainActivity","resetKeyboard":true},null,{"firstMatch":[{"platformName":"Android","appium:app":"/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk","appium:noReset":true,"appium:deviceName":"R58MB0Z4WCX","appium:appActivity":"com.moji.mjweather.MainActivity","appium:resetKeyboard":true}]}]
+2020-01-19 06:47:34:801 [BaseDriver] Event 'newSessionRequested' logged at 1579416454801 (14:47:34 GMT+0800 (GMT+08:00))
+2020-01-19 06:47:34:802 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-01-19 06:47:34:806 [Appium] 
+2020-01-19 06:47:34:809 [Appium] ======================================================================
+2020-01-19 06:47:34:811 [Appium]   DEPRECATION WARNING:
+2020-01-19 06:47:34:812 [Appium] 
+2020-01-19 06:47:34:813 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-19 06:47:34:813 [Appium]   capabilities for this Android session
+2020-01-19 06:47:34:815 [Appium] 
+2020-01-19 06:47:34:815 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-19 06:47:34:816 [Appium]   UiAutomator2 Driver
+2020-01-19 06:47:34:818 [Appium] 
+2020-01-19 06:47:34:818 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-19 06:47:34:818 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-19 06:47:34:819 [Appium]   platforms
+2020-01-19 06:47:34:819 [Appium] 
+2020-01-19 06:47:34:819 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-19 06:47:34:819 [Appium]   'automationName=UiAutomator1'
+2020-01-19 06:47:34:820 [Appium] 
+2020-01-19 06:47:34:820 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-19 06:47:34:820 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-19 06:47:34:820 [Appium] 
+2020-01-19 06:47:34:821 [Appium]   For more information about drivers, please visit 
+2020-01-19 06:47:34:824 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-19 06:47:34:826 [Appium]   'Drivers' menu
+2020-01-19 06:47:34:826 [Appium] 
+2020-01-19 06:47:34:827 [Appium] ======================================================================
+2020-01-19 06:47:34:827 [Appium] 
+2020-01-19 06:47:34:828 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-01-19 06:47:34:831 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-19 06:47:34:831 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-19 06:47:34:831 [BaseDriver]   "alwaysMatch": {
+2020-01-19 06:47:34:832 [BaseDriver]     "platformName": "Android",
+2020-01-19 06:47:34:832 [BaseDriver]     "appium:udid": "GDBNW19927003994",
+2020-01-19 06:47:34:832 [BaseDriver]     "appium:app": "/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk",
+2020-01-19 06:47:34:832 [BaseDriver]     "appium:noReset": true,
+2020-01-19 06:47:34:834 [BaseDriver]     "appium:deviceName": "R58MB0Z4WCX",
+2020-01-19 06:47:34:834 [BaseDriver]     "appium:appActivity": "com.moji.mjweather.MainActivity",
+2020-01-19 06:47:34:835 [BaseDriver]     "appium:resetKeyboard": true
+2020-01-19 06:47:34:835 [BaseDriver]   },
+2020-01-19 06:47:34:835 [BaseDriver]   "firstMatch": [
+2020-01-19 06:47:34:835 [BaseDriver]     {}
+2020-01-19 06:47:34:836 [BaseDriver]   ]
+2020-01-19 06:47:34:836 [BaseDriver] }
+2020-01-19 06:47:34:842 [BaseDriver] Session created with session id: 47c904a1-183f-4c4e-9e6b-bac8ccf4da10
+2020-01-19 06:47:34:847 [BaseDriver] Using local app '/Users/qing.li/Downloads/MJWeatherBox-prod-release.apk'
+2020-01-19 06:47:34:848 [UiAutomator2] Checking whether app is actually present
+2020-01-19 06:47:34:851 [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2020-01-19 06:47:34:854 [ADB] Using 'adb' from '/Users/qing.li/Library/Android/sdk/platform-tools/adb'
+2020-01-19 06:47:34:856 [AndroidDriver] Retrieving device list
+2020-01-19 06:47:34:857 [ADB] Trying to find a connected android device
+2020-01-19 06:47:34:857 [ADB] Getting connected devices...
+2020-01-19 06:47:34:883 [ADB] Connected devices: [{"udid":"R58MB0Z4WCX","state":"device"}]
+2020-01-19 06:47:34:884 [AndroidDriver] Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:47:34:884 [UiAutomator2] Deleting UiAutomator2 session
+2020-01-19 06:47:34:885 [BaseDriver] Event 'newSessionStarted' logged at 1579416454885 (14:47:34 GMT+0800 (GMT+08:00))
+2020-01-19 06:47:34:887 [W3C] Encountered internal error running command: Error: Device GDBNW19927003994 was not in the list of connected devices
+2020-01-19 06:47:34:890 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:74:35)
+2020-01-19 06:47:34:891 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:200:16)
+2020-01-19 06:47:34:891 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:286:26)
+2020-01-19 06:47:34:892 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:208:7)
+2020-01-19 06:47:34:892 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+2020-01-19 06:47:34:898 [HTTP] <-- POST /wd/hub/session 500 94 ms - 625
+2020-01-19 06:47:34:902 [HTTP] 
+2020-01-19 06:49:05:685 [Appium] Received SIGTERM - shutting down
